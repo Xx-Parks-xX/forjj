@@ -144,7 +144,7 @@ This is the details of what `forjj` did at `create phase`:
   - If the templates describes a `run_build` command, this command is executed.
   - Any files generated at build time are collected and reported back to forjj.
 
-- Now `forjj` do a git add of those new files. Ready to to be `git commited`.
+- Now `forjj` do a git add of those new files. Ready to be `git commited`.
 
 Except if you used `--no-maintain`, `forjj create` automatically run your initial deployment code to deploy your factory. This is done through the call to `forjj maintain` internally.
 
